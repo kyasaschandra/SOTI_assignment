@@ -59,12 +59,16 @@ class DoubleBedRoom : AbstractClass
             switch (RoomType) {
                 case "SINGLE":
                     return new SingleBedRoom();
+		    break;
                 case "DOUBLE":
                     return new DoubleBedRoom();
+		    break;
                 case "TRIPLE":
                     return new TripleBedRoom();
+		    break;
                 default:
                     return null;
+		    break;
             }
         }
 
